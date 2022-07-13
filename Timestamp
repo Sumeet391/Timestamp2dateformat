@@ -1,0 +1,9 @@
+Step 1 - Import library
+import pandas as pd
+Step 2 - Take Sample data
+Sample_timestamp = pd.Timestamp(year = 2020, month = 12, day = 31, hour = 7, minute = 20, second = 50, tz = "America/Chicago")
+print("This is the Timestamp date:", Sample_timestamp)
+This is the Timestamp date: 2020-12-31 07:20:50-06:00
+Step 3 - Convert into datetime
+print("This is the Conversion of Timestamp data into datetime:", Sample_timestamp.date())
+This is the Conversion of Timestamp data into datetime: 2020-12-31
